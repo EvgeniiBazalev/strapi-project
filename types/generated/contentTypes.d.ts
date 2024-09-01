@@ -368,12 +368,14 @@ export interface ApiSparePartSparePart extends Schema.CollectionType {
     singularName: 'spare-part';
     pluralName: 'spare-parts';
     displayName: 'spare-parts';
+    description: '';
   };
   options: {
     draftAndPublish: false;
   };
   attributes: {
-    test: Attribute.String;
+    Name: Attribute.String;
+    description: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

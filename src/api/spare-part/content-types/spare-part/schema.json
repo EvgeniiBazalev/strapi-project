@@ -4,15 +4,19 @@
   "info": {
     "singularName": "spare-part",
     "pluralName": "spare-parts",
-    "displayName": "spare-parts"
+    "displayName": "spare-parts",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "test": {
+    "Name": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
