@@ -61,7 +61,7 @@ $RECYCLE.BIN/
 # Logs and databases
 ############################
 
-.tmp
+
 *.log
 *.sql
 # Удалено: *.sqlite, *.sqlite3
@@ -99,7 +99,7 @@ coverage
 ############################
 
 exports
-# Убедитесь, что .strapi не игнорируется
+
 dist
 build
 .strapi-updater.json
